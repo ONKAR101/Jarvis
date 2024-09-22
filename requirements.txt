@@ -3,3 +3,4 @@ speechRecognition
 wikipedia
 gunicorn
 flask
+comtypes
