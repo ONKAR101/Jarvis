@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jarvis</title>
+    <style>
+        #submitButton {
+            background-color: #28a745;
+            /* Green background */
+            color: white;
+            /* White text */
+            font-size: 20px;
+            /* Large text size */
+            padding: 15px 30px;
+            /* Large padding for bigger button */
+            border: none;
+            /* Remove border */
+            border-radius: 50px;
+            /* Fully rounded */
+            cursor: pointer;
+            /* Pointer cursor on hover */
+            transition: background-color 0.3s ease;
+            /* Smooth transition on hover */
+            text-align: center;
+            /* Center text within the button */
+            width: fit-content;
+            /* Adjust width to fit the content */
+        }
+
+        /* Hover effect for the button */
+        #submitButton:hover {
+            background-color: #218838;
+            /* Darker green on hover */
+        }
+
+        /* Focus effect for the button */
+        #submitButton:focus {
+            outline: none;
+            box-shadow: 0 0 10px rgba(40, 167, 69, 0.5);
+            /* Green glow */
+        }
+    </style>
+</head>
+
+<body>
+
+    <form action="/add" method="POST">
+        <h1><input id="submitButton" type="submit" value="Start"></h1>
+    </form>
+
+</body>
+
+</html>
